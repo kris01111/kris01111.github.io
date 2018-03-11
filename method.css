@@ -27,6 +27,10 @@ p{
     margin-left: 80px;
     color: whitesmoke; 
 }
+span{
+    background-color: gray;
+    color: black;
+}
 
 
 @media (max-width: 992px) {
