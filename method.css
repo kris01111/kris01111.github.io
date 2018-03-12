@@ -6,12 +6,21 @@ body{
   background-size: cover;
 }
 
+img {
+    position:absolute;
+    width:400px;
+    max-width: 400px;
+    margin-top: -200px;
+    margin-left: 450px;
+    z-index:-1;
+}
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 80px;
     margin-top: 80px;
     margin-left: 80px;
     color: whitesmoke;
+    
 }
 h4{
     font-family: Arial, Helvetica, sans-serif;
@@ -19,18 +28,21 @@ h4{
     margin-top: 150px;
     margin-left: 80px;
     color: whitesmoke; 
+    
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     margin-top: 150px;
     margin-left: 80px;
-    color: whitesmoke; 
+    color: whitesmoke;
+    
 }
 span{
     background-color: gray;
     color: black;
     font-size: 40px;
+    
 }
 
 
