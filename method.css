@@ -9,7 +9,6 @@ body{
 img {
     position:absolute;
     width:400px;
-    max-width: 400px;
     margin-top: -200px;
     margin-left: 450px;
     z-index:-1;
@@ -17,57 +16,70 @@ img {
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 80px;
+    font-weight: bold;
     margin-top: 80px;
     margin-left: 80px;
-    color: whitesmoke;
+    color:black;
     
 }
 h4{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    font-weight: bold;
     margin-top: 150px;
     margin-left: 80px;
-    color: whitesmoke; 
+    color:black;
     
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    font-weight: bold;
     margin-top: 150px;
     margin-left: 80px;
-    color: whitesmoke;
+    color:black;
     
 }
 span{
     background-color: gray;
     color: black;
-    font-size: 40px;
+    font-size: 35px;
     
 }
 
 
 @media (max-width: 992px) {
+    img {
+        position:absolute;
+        width:300px;
+        margin-top: -100px;
+        margin-left: 250px;
+        z-index:-1;
+    }
     h1{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 40px;
         margin-top: 60px;
+        font-weight: bold;
         margin-left: 30px;
-        color: whitesmoke;
+        color: black;
     }
     h4{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         margin-top: 100px;
+        font-weight: bold;
         margin-left: 30px;
-        color: whitesmoke; 
+        color: black; 
     }
     p{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
+        font-weight: bold;
         margin-top: 100px;
     
         margin-left: 30px;
-        color: whitesmoke; 
+        color: black; 
     }
     span{
         font-size: 20px;
@@ -77,50 +89,72 @@ span{
   }
   
   @media (max-width: 767px) {
+
+    img {
+        position:absolute;
+        width:200px;
+        
+        margin-top: -70px;
+        margin-left: 180px;
+        z-index:-1;
+    }
     h1{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 30px;
+        font-weight: bold;
         margin-top: 40px;
         margin-left: 30px;
-        color: whitesmoke;
+        
     }
     h4{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
+        font-weight: bold;
         margin-top: 80px;
         margin-left: 30px;
-        color: whitesmoke; 
+         
     }
     p{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         margin-top: 80px;
+        font-weight: bold;
         margin-left: 30px;
-        color: whitesmoke; 
+         
     }
   }
   @media (max-width: 500px) {
+    img {
+        position:absolute;
+        width:150px;
+        margin-top: -70px;
+        margin-left: 150px;
+        z-index:-1;
+    }
   
     h1{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
+        font-weight: bold;
         margin-top: 40px;
         margin-left: 30px;
-        color: whitesmoke;
+        
     }
     h4{
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 10px;
+        font-size: 15px;
         margin-top: 80px;
+        font-weight: bold;
         margin-left: 30px;
-        color: whitesmoke;
+        
     }
     p{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 10px;
         margin-top: 80px;
+        font-weight: bold;
         margin-left: 30px;
-        color: whitesmoke; 
+
     }
     span{
         background-color: gray;
